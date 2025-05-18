@@ -1,0 +1,302 @@
+:root {
+    --primary-color: #2563eb;
+    --hover-color: #1d4ed8;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --text-color: #1e293b;
+    --muted-color: #64748b;
+    --border-color: #e2e8f0;
+}
+
+:root.dark {
+    --primary-color: #3b82f6;
+    --hover-color: #2563eb;
+    --shadow-color: rgba(255, 255, 255, 0.1);
+    --text-color: #f8fafc;
+    --muted-color: #94a3b8;
+    --border-color: #334155;
+    background: #0f172a;
+    color: var(--text-color);
+}
+
+:root.dark body {
+    background: #0f172a !important;
+}
+
+:root.dark .app-card {
+    background: #1e293b !important;
+    border-color: var(--border-color) !important;
+}
+
+:root.dark .modal-content {
+    background: #1e293b !important;
+    color: var(--text-color) !important;
+}
+
+:root.dark .list-group-item {
+    background: #1e293b !important;
+    color: var(--text-color) !important;
+    border-color: var(--border-color) !important;
+}
+
+:root.dark .search-input {
+    background: #1e293b !important;
+    border-color: var(--border-color) !important;
+    color: var(--text-color) !important;
+}
+
+:root.dark .modal-header,
+:root.dark .modal-footer {
+    border-color: var(--border-color) !important;
+}
+
+.source-link {
+    color: var(--text-color) !important;
+    text-decoration: none !important;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: opacity 0.2s;
+}
+
+.source-link:hover {
+    opacity: 0.8;
+}
+
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 15px 25px;
+    box-shadow: 0 2px 15px var(--shadow-color);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo {
+    transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+    transform: translateX(3px);
+}
+
+.search-group {
+    position: relative;
+    margin-left: auto;
+    width: 200px;
+    transition: width 0.3s ease;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px 35px 8px 15px;
+    border-radius: 20px;
+    border: 2px solid var(--border-color);
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    width: 280px;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.search-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 5px;
+    color: var(--muted-color);
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    color: var(--primary-color);
+}
+
+.main-content {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.app-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.app-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px var(--shadow-color);
+}
+
+.app-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    object-fit: contain;
+    border: 2px solid var(--border-color);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.text-muted {
+    color: var(--muted-color) !important;
+}
+
+.download-btn {
+    background: var(--primary-color);
+    border: none;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background: var(--hover-color);
+    transform: scale(1.05);
+}
+
+.modal-content {
+    border-radius: 12px;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 1.5rem;
+}
+
+.modal-title {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 8px !important;
+    margin-bottom: 8px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.list-group-item:hover {
+    background: #f8fafc;
+    transform: translateX(5px);
+}
+
+.badge {
+    font-weight: 500;
+    padding: 8px 12px;
+    background: var(--primary-color) !important;
+}
+
+@media (max-width: 768px) {
+    .site-header {
+        padding: 12px 15px;
+    }
+    
+    .header-logo {
+        height: 35px;
+    }
+    
+    .search-group {
+        width: 160px;
+    }
+    
+    .search-input:focus {
+        width: 220px;
+    }
+    
+    .main-content {
+        margin-top: 80px;
+    }
+    
+    .app-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .site-header {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .search-group {
+        width: 100%;
+        order: 2;
+    }
+    
+    .search-input:focus {
+        width: 100%;
+    }
+    
+    .main-title {
+        font-size: 2rem;
+    }
+}
+
+.auth-section {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.site-header {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.search-group {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#tokenModal .modal-body a {
+    word-break: break-all;
+}
+
+#loginReminderModal .modal-content {
+    border: 2px solid #0969da;
+}
+
+#loginReminderModal ul {
+    list-style: none;
+    padding-left: 1.5rem;
+}
+
+#loginReminderModal ul li::before {
+    content: "✓";
+    color: #0969da;
+    margin-right: 0.5rem;
+}
+
+#loginReminderModal .modal-footer {
+    justify-content: space-between;
+}

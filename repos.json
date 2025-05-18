@@ -1,0 +1,256 @@
+{
+    "repos": [
+        {
+            "owner": "aiko-chan-ai",
+            "repo": "DiscordBotClient",
+            "icon": "https://raw.githubusercontent.com/aiko-chan-ai/DiscordBotClient/refs/heads/electron-v3/AppAssets/DiscordBotClient.png"
+        },
+        {
+            "owner": "ValdikSS",
+            "repo": "GoodbyeDPI",
+            "icon": "https://raw.githubusercontent.com/ValdikSS/GoodbyeDPI/refs/heads/master/src/icon.ico",
+            "os_overrides": {
+                "goodbyedpi": "WINDOWS"
+            }
+        },
+        {
+            "owner": "meexreay",
+            "repo": "bRAC"
+        },
+        {
+            "owner": "Vencord",
+            "repo": "Vesktop",
+            "icon": "https://raw.githubusercontent.com/Vencord/Vesktop/refs/heads/main/build/icon.png"
+        },
+        {
+            "owner": "OctoBanon-Main",
+            "display_name": "Mefedroniy",
+            "repo": "mefedroniy-client"
+        },
+        {
+            "owner": "MultiMC",
+            "repo": "Launcher",
+            "display_name": "MultiMC",
+            "icon": "https://avatars2.githubusercontent.com/u/5411890"
+        },
+        {
+            "owner": "maximmax42",
+            "repo": "Discord-CustomRP",
+            "icon": "https://raw.githubusercontent.com/maximmax42/Discord-CustomRP/refs/heads/master/CustomRPC/Resources/logo.png"
+        },
+        {
+            "owner": "notepad-plus-plus",
+            "repo": "notepad-plus-plus",
+            "display_name": "Notepad++",
+            "icon": "https://avatars.githubusercontent.com/u/12589084?s=200&v=4",
+            "os_overrides": {
+                "Installer.arm64": "WINDOWS ARM64",
+                "Installer.x64": "WINDOWS",
+                "portable.arm64": "WINDOWS ARM64 P",
+                "portable.x64": "WINDOWS P",
+                "Installer": "WINDOWS x32",
+                "portable": "WINDOWS x32 P"
+            }
+        },
+        {
+            "owner": "eliboa",
+            "repo": "TegraRcmGUI",
+            "icon": "https://tegrarcmgui.com/wp-content/uploads/2024/04/TegraRcmGUI.png.png"
+        },
+        {
+            "owner": "PolyMC",
+            "repo": "PolyMC",
+            "icon": "https://avatars.githubusercontent.com/u/96310119?s=200&v=4"
+        },
+        {
+            "owner": "ProtonVPN",
+            "repo": "win-app",
+            "display_name": "ProtonVPN Win",
+            "icon": "https://avatars.githubusercontent.com/u/25028530?s=200&v=4",
+            "os_overrides": {
+                "arm64": "WINDOWS ARM64",
+                "x64": "WINDOWS"
+            }
+        },
+        {
+            "owner": "ProtonVPN",
+            "repo": "ios-mac-app",
+            "display_name": "ProtonVPN Mac",
+            "icon": "https://avatars.githubusercontent.com/u/25028530?s=200&v=4"
+        },
+        {
+            "owner": "nginx",
+            "repo": "nginx",
+            "icon": "https://docs.nginx.com//images/icons/NGINX-product-icon.png",
+            "os_overrides": {
+                ".zip": "WINDOWS"
+            }
+        },
+        {
+            "owner": "neovim",
+            "repo": "neovim",
+            "icon": "https://avatars.githubusercontent.com/u/6471485?s=200&v=4",
+            "os_overrides": {
+                 "linux-arm64": "LINUX ARM64",
+                 "linux-x86_64": "LINUX",
+                 "macos-arm64": "MACOS ARM64",
+                 "macos-x86_64": "MACOS",
+                 "win-64": "WINDOWS"
+            }
+        },
+        {
+            "owner": "Nheko-Reborn",
+            "repo": "nheko",
+            "icon": "https://avatars.githubusercontent.com/u/46657606?s=200&v=4",
+            "os_overrides": {
+                 "arm64.flatpak": "LINUX ARM64",
+                 "amd64.flatpak": "LINUX",
+                 "apple-silicon.dmg": "MACOS ARM64",
+                 "intel.dmg": "MACOS",
+                 "win-64": "WINDOWS"
+            }
+        },
+        {
+            "owner": "telegramdesktop",
+            "repo": "tdesktop",
+            "display_name": "Telegram",
+            "icon": "https://raw.githubusercontent.com/telegramdesktop/tdesktop/refs/heads/dev/Telegram/Resources/art/icon512.png",
+            "os_overrides": {
+                 "tportable-arm64": "WINDOWS ARM64 P",
+                 "tportable-x64": "WINDOWS P",
+                 "tportable": "WINDOWS x32 P",
+                 "tsetup-arm64": "WINDOWS ARM64",
+                 "tsetup-x64": "WINDOWS",
+                 ".dmg": "MACOS",
+                 ".xz": "LINUX",
+                 "tsetup": "WINDOWS x32"
+            }
+        },
+        {
+            "owner": "amnezia-vpn",
+            "repo": "amnezia-client",
+            "display_name": "AmneziaVPN",
+            "icon": "https://avatars.githubusercontent.com/u/74861536?s=200&v=4"
+        },
+        {
+            "owner": "Homebrew",
+            "repo": "brew",
+            "icon": "https://avatars.githubusercontent.com/u/1503512?s=200&v=4"
+        },
+        {
+            "owner": "obsproject",
+            "repo": "obs-studio",
+            "display_name": "OBS",
+            "icon": "https://avatars.githubusercontent.com/u/7725691?s=200&v=4",
+            "os_overrides": {
+                 "Windows.zip": "WINDOWS P",
+                 "Apple.dmg": "MACOS ARM64",
+                 "Intel.dmg": "MACOS"
+            }
+        },
+        {
+            "owner": "BetterDiscord",
+            "repo": "Installer",
+            "display_name": "BetterDiscord",
+            "icon": "https://avatars.githubusercontent.com/u/72631062?s=200&v=4"
+        },
+        {
+            "owner": "Forbirdden",
+            "repo": "Yescord-Desktop",
+            "display_name": "Yescord",
+            "icon": "https://raw.githubusercontent.com/Forbirdden/Yescord-Desktop/refs/heads/main/icon.png"
+        },
+        {
+            "owner": "pbatard",
+            "repo": "rufus",
+            "icon": "https://rufus.ie/pics/rufus-128.png",
+            "os_overrides": {
+                 "p.exe": "WINDOWS P",
+                 "arm64.exe": "WINDOWS ARM64",
+                 ".exe": "WINDOWS",
+                 "x86.exe": "WINDOWS x32"
+            }
+        },
+        {
+            "owner": "microsoft",
+            "repo": "PowerToys",
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBRY0umJKt.GQbXbqRe3O0.MdkGhUjrf0LivlGArxH_YXxpXB3ufyTADUrAs2D0gzEkqwBghD5FOqg3z9I42YZIg-",
+            "os_overrides": {
+                 "x64.exe": "WINDOWS ",
+                 "arm64.exe": "WINDOWS ARM64"
+            }
+        },
+        {
+            "owner": "AutoHotkey",
+            "repo": "AutoHotkey",
+            "icon": "https://avatars.githubusercontent.com/u/1413373?s=200&v=4",
+            "os_overrides": {
+                 "setup.exe": "WINDOWS",
+                 ".zip": "WINDOWS P"
+            }
+        },
+                {
+            "owner": "ventoy",
+            "repo": "Ventoy",
+            "icon": "https://images.opencollective.com/ventoy/dd17838/logo/256.png"
+        },
+        {
+            "owner": "balena-io",
+            "repo": "etcher",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Etcher-icon.png",
+            "os_overrides": {
+                "x86_64.rpm": "LINUX",
+                "amd64.deb": "LINUX",
+                "arm64.dmg": "MACOS ARM64",
+                "x64.AppImage": "LINUX", 
+                "x64.dmg": "MACOS",
+                "Setup.exe": "WINDOWS",
+                "darwin-arm64": "MACOS ARM64 P",
+                "darwin-x64": "MACOS P",
+                "linux-x64": "LINUX P", 
+                "win32-x64": "WINDOWS P"
+            }
+        },
+        {
+            "owner": "vladimiry",
+            "repo": "ElectronMail",
+            "icon": "https://raw.githubusercontent.com/vladimiry/ElectronMail/refs/heads/master/src/assets/icon/icon.png",
+            "os_overrides": {
+                "linux-amd64.deb": "LINUX",
+                "linux-amd64.snap": "LINUX",
+                "linux-x64.freebsd": "LINUX",
+                "linux-x64.pacman": "LINUX", 
+                "linux-x86_64.AppImage": "LINUX",
+                "linux-x86_64.rpm": "LINUX",
+                "mac-arm64.dmg": "MACOS ARM64",
+                "mac-x64.dmg": "MACOS",
+                "windows-x64-nsis-installer.exe": "WINDOWS"
+            }
+        },
+        {
+            "owner": "hydralauncher",
+            "repo": "hydra",
+            "icon": "https://raw.githubusercontent.com/hydralauncher/hydra/main/resources/icon.png",
+            "os_overrides": {
+                "amd64.deb": "LINUX",
+                "amd64.snap": "LINUX",
+                ".pacman": "LINUX", 
+                ".AppImage": "LINUX",
+                "x86_64.rpm": "LINUX",
+                "portable.exe": "WINDOWS P",
+                "setup.exe": "WINDOWS"
+            }
+        },
+        {
+            "owner": "ppy",
+            "repo": "osu",
+            "icon": "https://raw.githubusercontent.com/ppy/osu/refs/heads/master/assets/lazer.png",
+            "os_overrides": {
+                "install.exe": "WINDOWS",
+                "osu.app.Apple.Silicon.zip": "MACOS ARM64",
+                "osu.app.Intel.zip": "MACOS", 
+                "osu.AppImage": "LINUX"
+            }
+        }
+    ]
+} 
