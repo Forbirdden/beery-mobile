@@ -304,11 +304,6 @@
         gap: 10px !important;
     }
 
-    .header-logo {
-        height: 40px;
-        margin: 0 auto;
-    }
-
     .auth-section {
         position: static;
         transform: none;
