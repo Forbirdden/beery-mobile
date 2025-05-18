@@ -300,3 +300,69 @@
 #loginReminderModal .modal-footer {
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        padding: 15px;
+        gap: 10px !important;
+    }
+
+    .header-logo {
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    .auth-section {
+        position: static;
+        transform: none;
+        order: 1;
+        margin: 10px 0;
+    }
+
+    .search-group {
+        order: 2;
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .app-card {
+        margin-bottom: 10px;
+    }
+
+    .app-icon {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .card-title {
+        font-size: 1rem !important;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    .source-link {
+        display: none;
+    }
+
+    .download-btn {
+        width: 40px !important;
+        height: 40px !important;
+        padding: 0 !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app-card.active .card-text,
+    .app-card.active .source-link {
+        display: block !important;
+    }
+
+    .app-card.active {
+        transform: none !important;
+        box-shadow: none !important;
+    }
+}

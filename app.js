@@ -105,41 +105,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function createAppCard(app) {
         return `
-            <div class="col mb-4" 
-                 data-search="${app.title.toLowerCase()} 
-                 ${app.originalRepo.toLowerCase()} 
-                 ${app.author.toLowerCase()} 
-                 ${app.description.toLowerCase()}">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
-                        <div class="d-flex align-items-center mb-3">
-                            <img src="${app.icon}" 
-                                 class="app-icon rounded me-3" 
-                                 alt="${app.title} icon"
-                                 onerror="this.src='logo1x1.png'">
-                            <div>
-                                <h5 class="card-title mb-0">${app.title}</h5>
-                                <div class="d-flex align-items-center gap-2 mt-1">
-                                    <small class="text-muted">by ${app.author}</small>
-                                </div>
+        <div class="col mb-4" 
+             data-search="${app.title.toLowerCase()} 
+             ${app.originalRepo.toLowerCase()} 
+             ${app.author.toLowerCase()} 
+             ${app.description.toLowerCase()}">
+            <div class="card h-100 shadow-sm app-card">
+                <div class="card-body d-flex flex-column">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="${app.icon}" 
+                             class="app-icon rounded me-3" 
+                             alt="${app.title} icon"
+                             onerror="this.src='logo1x1.png'">
+                        <div>
+                            <h5 class="card-title mb-0">${app.title}</h5>
+                            <div class="d-flex align-items-center gap-2 mt-1">
+                                <small class="text-muted">by ${app.author}</small>
                             </div>
                         </div>
-                        <p class="card-text flex-grow-1">${app.description}</p>
-                        <div class="d-flex justify-content-between align-items-center mt-auto">
-                            <button class="btn btn-primary download-btn"
-                                data-repo="${app.author}/${app.originalRepo}">
-                                Download
-                            </button>
-                            <a href="https://github.com/${app.author}/${app.originalRepo}" 
-                               target="_blank" 
-                               class="source-link">
-                                Source
-                            </a>
-                        </div>
+                    </div>
+                    <p class="card-text flex-grow-1">${app.description}</p>
+                    <div class="d-flex justify-content-between align-items-center mt-auto">
+                        <button class="btn btn-primary download-btn"
+                            data-repo="${app.author}/${app.originalRepo}">
+                            ↓
+                        </button>
+                        <a href="https://github.com/${app.author}/${app.originalRepo}" 
+                           target="_blank" 
+                           class="source-link">
+                            Source
+                        </a>
                     </div>
                 </div>
             </div>
-        `;
+        </div>
+    `;
     }
 
     function renderApps() {
@@ -171,6 +171,14 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('status').textContent = 
             `Showing ${Math.min(endIndex, filteredApps.length)} of ${filteredApps.length} apps`;
     }
+
+    document.querySelectorAll('.app-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+            if (window.innerWidth <= 768 && !e.target.closest('.download-btn')) {
+                card.classList.toggle('active');
+            }
+        });
+    });
 
     function showDownloadModal(repoPath) {
         const modal = document.getElementById('downloadModal');
